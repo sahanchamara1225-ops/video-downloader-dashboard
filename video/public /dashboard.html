@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h2>Admin Dashboard</h2>
+
+<input type="text" id="videoURL" placeholder="Paste Direct MP4 Link">
+<button onclick="downloadVideo()">Download</button>
+
+<div class="progress">
+  <div id="progressBar"></div>
+</div>
+
+<a id="downloadLink" style="display:none;">Download File</a>
+
+<button onclick="logout()" style="background:#ff1744;margin-top:20px;">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
